@@ -1,0 +1,65 @@
+[
+  {"id":2,"Name": "Dashboard", "fontAwesomeHTML": "<i class='fa fa-desktop'></i>","RouterLink": "dashboard","parent_Id": "0","userRoles": [{"userRole": 1},{"userRole": 2},{"userRole": 4},{"userRole": 5}]
+  },
+  {"id":1,"Name": "Challenges", "fontAwesomeHTML": "<i class='fa fa-bar-chart'></i>","RouterLink": "newchallenge","parent_Id": "0","userRoles": [{"userRole": 4},{"userRole": 5}]
+  },
+   {"id":3,"Name": "Email", "fontAwesomeHTML": "<i class='fa fa-envelope'></i>","RouterLink": "inbox","parent_Id": "0","userRoles": [{"userRole": 1},{"userRole": 2},{"userRole": 4},{"userRole": 5}]
+  },
+  {"id":5,"Name": "CMS", "fontAwesomeHTML": "<i class='fa fa-tasks'></i>","RouterLink": "","parent_Id": "0","userRoles": [{"userRole": 1},{"userRole": 2}]
+  },
+  {"id":6,"Name": "Accounts", "fontAwesomeHTML": "<i class='fa fa-book'></i>","RouterLink": "","parent_Id": "0","userRoles": [{"userRole": 1},{"userRole": 2}]
+  },
+  { "id":7,"Name": "Statistics", "fontAwesomeHTML": "<i class='fa fa-bar-chart'></i>","RouterLink": "statistics","parent_Id": "0","userRoles": [{"userRole": 1},{"userRole": 2}]
+  },
+   { "id":8,"Name": "Project Dashboard", "fontAwesomeHTML": "<i class='fa fa-bar-chart'></i>","RouterLink": "projectdashboard","parent_Id": "0","isParent": "0","userRoles": [{"userRole": 4},{"userRole": 5}]
+  },
+   { "id":9,"Name": "Rewards", "fontAwesomeHTML": " <i class='glyphicon glyphicon-gift'></i>","RouterLink": "","parent_Id": "0","userRoles": [{"userRole": 4},{"userRole": 5}]
+  },{ "id":10,"Name": "Raffles", "fontAwesomeHTML": "","RouterLink": "rewards/raffles","parent_Id": "9","userRoles": [{"userRole": 4},{"userRole": 5}]
+  },
+   { "id":11,"Name": "Vouchers", "fontAwesomeHTML": "","RouterLink": "rewards/vouchers","parent_Id": "9","userRoles": [{"userRole": 4},{"userRole": 5}]
+  }, { "id":12,"Name": "Gifts", "fontAwesomeHTML": "","RouterLink": " rewards/gifts ","parent_Id": "9","userRoles": [{"userRole": 4},{"userRole": 5}]
+  },
+   { "id":13,"Name": "Paypal Payouts", "fontAwesomeHTML": "","RouterLink": "rewards/paypalpayouts","parent_Id": "9","userRoles": [{"userRole": 4},{"userRole": 5}]
+  }, { "id":14,"Name": "Badges", "fontAwesomeHTML": "","RouterLink": "rewards/badges","parent_Id": "9","userRoles": [{"userRole": 4},{"userRole": 5}]
+  },
+  { "id":15,"Name": "Admin", "fontAwesomeHTML": "","RouterLink": "accounts/admin","parent_Id": "6","userRoles": [{"userRole": 1},{"userRole": 2}]
+  },
+  { "id":16,"Name": "Agency", "fontAwesomeHTML": "","RouterLink": "accounts/agency","parent_Id": "6","userRoles": [{"userRole": 1},{"userRole": 2}]
+  },
+  { "id":17,"Name": "Users", "fontAwesomeHTML": "","RouterLink": "accounts/users","parent_Id": "6","userRoles": [{"userRole": 1},{"userRole": 2}]
+  },
+  { "id":18,"Name": "Content Reported by Users", "fontAwesomeHTML": "","RouterLink": "","parent_Id": "5","userRoles": [{"userRole": 1},{"userRole": 2}]
+  },
+   { "id":19,"Name": "Terms of Use", "fontAwesomeHTML": "","RouterLink": "","parent_Id": "5","userRoles": [{"userRole": 1},{"userRole": 2}]
+  },
+  { "id":20,"Name": "Business", "fontAwesomeHTML": "","RouterLink": "","parent_Id": "19","userRoles": [{"userRole": 1},{"userRole": 2}]
+  },
+  { "id":21,"Name": "User", "fontAwesomeHTML": "","RouterLink": "","parent_Id": "19","userRoles": [{"userRole": 1},{"userRole": 2}]
+  },
+  { "id":22,"Name": "Privacy Policy", "fontAwesomeHTML": "","RouterLink": "","parent_Id": "5","userRoles": [{"userRole": 1},{"userRole": 2}]
+  },
+  { "id":23,"Name": "Email Templates", "fontAwesomeHTML": "","RouterLink": "","parent_Id": "5","userRoles": [{"userRole": 1},{"userRole": 2}]
+  },
+  { "id":24,"Name": "Push Notifications Templates", "fontAwesomeHTML": "","RouterLink": "","parent_Id": "5","userRoles": [{"userRole": 1},{"userRole": 2}]
+  },
+  { "id":25,"Name": "Languages Management", "fontAwesomeHTML": "","RouterLink": "","parent_Id": "5","userRoles": [{"userRole": 1},{"userRole": 2}]
+  },
+  { "id":26,"Name": "User Profile Fields", "fontAwesomeHTML": "","RouterLink": "","parent_Id": "5","userRoles": [{"userRole": 1},{"userRole": 2}]
+  },
+  { "id":27,"Name": "Action Types", "fontAwesomeHTML": "","RouterLink": "","parent_Id": "5","userRole":"2","userRoles": [{"userRole": 1},{"userRole": 2}]
+  },
+  { "id":28,"Name": "Challenge Types", "fontAwesomeHTML": "","RouterLink": "","parent_Id": "5","userRoles": [{"userRole": 1},{"userRole": 2}]
+  },
+  { "id":29,"Name": "Challenge Templates", "fontAwesomeHTML": "","RouterLink": "","parent_Id": "5","userRoles": [{"userRole": 1},{"userRole": 2}]
+  },
+  { "id":30,"Name": "Email Templates", "fontAwesomeHTML": "","RouterLink": "","parent_Id": "5","userRoles": [{"userRole": 1},{"userRole": 2}]
+  },
+  { "id":31,"Name": "Workflow Emails", "fontAwesomeHTML": "","RouterLink": "","parent_Id": "5","userRoles": [{"userRole": 1},{"userRole": 2}]
+  },
+   { "id":32,"Name": "Teams", "fontAwesomeHTML": "<i class='fa fa-users'></i>","RouterLink": "teams","parent_Id": "0","userRoles": [{"userRole": 5}]
+  },
+  { "id":33,"Name": "Agency Accounts", "fontAwesomeHTML": "<i class='fa fa-cog'></i>","RouterLink": "","parent_Id": "0","userRoles": [{"userRole": 4},{"userRole": 5}]
+  }
+  
+  
+  ]
